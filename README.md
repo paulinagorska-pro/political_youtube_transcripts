@@ -78,6 +78,4 @@ Honnibal, M., et al. (2020). spaCy. Zenodo.
 
 Hubert, L., & Arabie, P. (1985). Comparing partitions. *Journal of Classification, 2*(1), 193–218.
 
-McInnes, L., Healy, J., & Astels, S. (2017). hdbscan. *JOSS, 2*(11), 205.
-
 McInnes, L., Healy, J., & Melville, J. (2018). UMAP. arXiv:1802.03426.
