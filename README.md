@@ -10,7 +10,9 @@ A computational analysis of Polish political YouTube content spanning the full i
 
 ├── 6_fetch_transcripts.ipynb             # Fetch YouTube transcripts for videos already present in BigQuery
 ├── 7_translate_transcripts.ipynb         # Translating transcripts to English
-├── 8_analyze_transcripts.ipynb           # Marking the levels of emotions, moral foundations, hate speech, linguistic essentialism, and group language 
+├── 8_analyze_transcripts.ipynb           # Marking the levels of emotions, moral foundations,
+├                                           hate speech, linguistic essentialism,
+├                                           and group language 
 ├── 9_affective_polarization.ipynb        # Marking the levels of affective polarization
 └── 10_moral_foundations_cluster.ipynb    # Transcripts cluster analysis based on moral foundations indices
 ```
