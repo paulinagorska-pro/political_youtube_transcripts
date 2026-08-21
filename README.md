@@ -2,6 +2,19 @@
 
 A computational analysis of Polish political YouTube content spanning the full ideological spectrum, from left to right. The dataset covers recordings published in July 2026 across 25+ channels and includes a suite of NLP-based indicators derived from video transcripts.
 
+---
+ 
+## Repository structure
+ 
+```
+
+├── 6_fetch_transcripts.ipynb             # Fetch YouTube transcripts for videos already present in BigQuery
+├── 7_translate_transcripts.ipynb         # Translating transcripts to English
+├── 8_analyze_transcripts.ipynb           # Marking the levels of emotions, moral foundations, hate speech, linguistic essentialism, and group language 
+├── 9_affective_polarization.ipynb        # Marking the levels of affective polarization
+└── 10_moral_foundations_cluster.ipynb    # Transcripts cluster analysis based on moral foundations indices
+```
+
 ## Channels
 
 Channels were selected to represent four ideological orientations:
@@ -48,7 +61,8 @@ Noun ratio computed on original Polish text using spaCy `pl_core_news_sm` (NOUN 
 ### Group Language (We/They)
 Lexical counts of first-person plural pronouns (*my*, *nasz*, …) and second/third-person plural pronouns (*oni*, *wy*, *wasz*, …) on original Polish text, using exact-match lists to avoid false positives from stemming.
 
-Output: `we_ratio`, `they_ratio`, `we_count`, `they_count`, `we_they_ratio`.
+### Affective polarization
+xxx
 
 ## Cluster Analysis
 
